@@ -62,7 +62,21 @@
 запросы и ответы со стороны сервиса для **всех** его операций.
 
 #### Демонстрация работы
-todo
+Список всех продуктов, изначально содержит один элемент
+<img src="images/Screenshot-1.png" width=1000 />
+Добавляем ещё элемент
+<img src="images/Screenshot-2.png" width=1000 />
+Изменяем новый элемент
+<img src="images/Screenshot-3.png" width=1000 />
+В списке теперь два элемента
+<img src="images/Screenshot-4.png" width=1000 />
+Получаем элемент по id
+<img src="images/Screenshot-5.png" width=1000 />
+Удаляем элемент
+<img src="images/Screenshot-6.png" width=1000 />
+После удаления в списке снова один элемент
+
+<img src="images/Screenshot-7.png" width=1000 />
 
 ### Задание В (4 балла)
 Пусть ваш продукт также имеет иконку (небольшую картинку). Формат иконки (картинки) может
@@ -84,7 +98,18 @@ todo
 ```
 
 #### Демонстрация работы
-todo
+Добавила новый ключ в json'е с информацией об иконке ("image_filename")
+<img src="images/Screenshot-8.png" width=1000 />
+Получаем иконку
+<img src="images/Screenshot-9.png" width=1000 />
+Добавляем новый продукт
+<img src="images/Screenshot-10.png" width=1000 />
+Загружаем иконку для нового продукта
+<img src="images/Screenshot-11.png" width=1000 />
+Новая иконка
+<img src="images/Screenshot-12.png" width=1000 />
+Имя файла для новой иконки отображается в списке всех продуктов
+<img src="images/Screenshot-13.png" width=1000 />
 
 ---
 
