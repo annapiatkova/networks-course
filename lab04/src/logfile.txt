@@ -1,0 +1,7 @@
+GET request, path: http://www.google.com, status code: 200
+GET request, path: http://images/branding/googlelogo/1x/googlelogo_white_background_color_272x92dp.png, status code: 502
+GET request, path: http://textinputassistant/tia.png, status code: 502
+GET request, path: http://xjs/_/js/k=xjs.hp.en.w76mgT-bF5A.es5.O/am=AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEHcEAAAAAAAgABYBAAAAAAAA4AEAAAAQ/d=1/ed=1/dg=4/rs=ACT90oF8ks5weuTN6Gk6Y7JdRvUhNNnGsQ/m=sb_he,d, status code: 502
+GET request, path: http://images/nav_logo229.png, status code: 502
+GET request, path: http://client_204?&atyp=i&biw=1799&bih=933&ei=opLLafiuHYLAp84Po-KriA0&opi=89978449, status code: 502
+GET request, path: http://images/nav_logo229.png, status code: 502
