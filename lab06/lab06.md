@@ -11,17 +11,17 @@
 
    UDP-заголовок содержит 4 поля, source port, destination port, length и checksum (порт отправителя, порт получателя, длина и чексумма).
 
-   <img src="images/Screenshot-1.png" width=1000 />
+   <img src="images/Screenshot-1.jpg" width=1000 />
 
 2. Определите длину (в байтах) для каждого поля UDP-заголовка, обращаясь к отображаемой
    информации о содержимом полей в данном пакете.
    
    Каждое поле занимает по 2 байта (4 шестнадцатиричных знака это $4 \cdot 4 = 16$ бит = 2 байта).
 
-   <img src="images/Screenshot-2.png" width=1000 />
-   <img src="images/Screenshot-3.png" width=1000 />
-   <img src="images/Screenshot-4.png" width=1000 />
-   <img src="images/Screenshot-5.png" width=1000 />
+   <img src="images/Screenshot-2.jpg" width=1000 />
+   <img src="images/Screenshot-3.jpg" width=1000 />
+   <img src="images/Screenshot-4.jpg" width=1000 />
+   <img src="images/Screenshot-5.jpg" width=1000 />
 
 3. Значение в поле Length (Длина) – это длина чего?
    
@@ -33,8 +33,8 @@
 
    Но поскольку UDP используется поверх протокола IP, UDP-дейтаграмма будет находиться внутри payload IP-дейтаграммы, и в IP-заголовке тоже есть поле length с длиной всей дейтаграммы в байтах. Это поле тоже имеет размер 16 бит, но там в длине будет кроме UDP-заголовка будет учтён также и IP-заголовок, который занимает 20 байт. Таким образом на UDP payload остаётся не более $65535 - 8 - 20 = 65507$ байт.
 
-   <img src="images/Screenshot-9.png" width=1000 />
-   <img src="images/Screenshot-10.png" width=1000 />
+   <img src="images/Screenshot-9.jpg" width=1000 />
+   <img src="images/Screenshot-10.jpg" width=1000 />
 
    Таким образом, максимальный теоретический размер полезной нагрузки UDP-пакета составляет 65507 байт.
 
@@ -48,15 +48,15 @@
    
    Номер протокола UDP 17 (0x11 в шестнадцатиричной системе).
 
-   <img src="images/Screenshot-6.png" width=1000 />
+   <img src="images/Screenshot-6.jpg" width=1000 />
 
 7. Проверьте UDP-пакет и ответный UDP-пакет, отправляемый вашим хостом. Определите
    отношение между номерами портов в двух пакетах.
    
    Порт отправителя в исходном пакете это порт получателя в ответном пакете и наоборот, порт получателя в исходном пакете это порт отправителя в ответном пакете.
 
-   <img src="images/Screenshot-7.png" width=1000 />
-   <img src="images/Screenshot-8.png" width=1000 />
+   <img src="images/Screenshot-7.jpg" width=1000 />
+   <img src="images/Screenshot-8.jpg" width=1000 />
 
 ## Программирование. FTP
 
