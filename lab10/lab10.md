@@ -108,6 +108,7 @@ Windows) или UDP-сегмент (в случае с Unix).
    Найдите первое сообщение протокола ICMP с эхо-запросом, поступившее на ваш
    компьютер (с уже измененным размером пакета).
 
+   <img src="images/Screenshot-7.png" width=1000 />
    <img src="images/Screenshot-4.png" width=1000 />
    <img src="images/Screenshot-5.png" width=1000 />
    <img src="images/Screenshot-6.png" width=1000 />
